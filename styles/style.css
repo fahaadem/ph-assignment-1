@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+
+}
+
+
+
+/* header styles */
+
+.header {
+    text-align: right;
+    background-image: url(../images/banner/banner1.png);
+    padding-top: 216px;
+    padding-right: 230px;
+    padding-left: 835px;
+    padding-bottom: 166px;
+
+}
+
+.header-title {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: 62px;
+    line-height: 76px;
+    margin-bottom: 24px;
+    color: #151414;
+    font-family: 'Work Sans';
+}
+
+.description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #444343;
+    margin-bottom: 32px;
+}
+
+.btn-primary {
+    background: #F15B22;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    padding: 21px 25px;
+
+
+}
+
+.btn-primary:hover {
+    background-color: darkred;
+    transition: 0.2s;
+}
+
+
+/* pre-year section styles */
+
+.pre-year {
+    display: flex;
+    gap: 87px;
+    text-align: left;
+    padding-left: 206px;
+    padding-right: 322px;
+    padding-top: 150px;
+    padding-bottom: 130px;
+}
+
+.text {
+    padding-top: 280px;
+
+}
+
+.text-heading {
+    font-family: 'Work Sans';
+    padding-right: 50px;
+    padding-bottom: 24px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.text-description {
+    padding-top: 12px;
+    font-size: 18px;
+}
+
+/* My plans section styles */
+
+.section-header {
+    text-align: center;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 120px;
+    padding-right: 80px;
+    padding-bottom: 130px;
+}
+
+.plan {
+    text-align: center;
+}
+
+.plan-header {
+    font-weight: 700;
+    font-size: 22px;
+    color: #151414;
+}
