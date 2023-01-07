@@ -124,7 +124,7 @@
 
 .image {
     margin: 130px 230px;
-    background-image: url(/images/watch.png);
+    background-image: url(../images/watch.png);
     background-repeat: no-repeat;
     position: relative;
 }
