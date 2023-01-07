@@ -2,7 +2,6 @@
     margin: 0;
 }
 
-
 /* header styles */
 
 .header {
@@ -41,8 +40,6 @@
     font-size: 20px;
     border: none;
     padding: 21px 25px;
-
-
 }
 
 .btn-primary:hover {
@@ -63,7 +60,7 @@
 }
 
 .text {
-    padding-top: 222px;
+    padding-top: 218px;
 
 }
 
@@ -83,8 +80,8 @@
 }
 
 
-
 /* My plans section styles */
+
 
 .section-header {
     text-align: center;
@@ -132,7 +129,6 @@
     position: relative;
 }
 
-
 .img-heading {
     font-weight: 700;
     font-size: 40px;
@@ -156,6 +152,7 @@
     position: absolute;
     margin-top: 20px;
 }
+
 
 /* footer styles */
 
@@ -182,7 +179,6 @@ footer .description {
 
 }
 
-
 input {
     width: 300px;
     height: 35px;
@@ -196,7 +192,6 @@ input {
     font-size: 16px;
 }
 
-
 .btn {
     border-radius: 8px;
     border: none;
@@ -208,5 +203,5 @@ input {
 }
 
 .icon {
-    padding-left: 7px;
+    padding-left: 8px;
 }
