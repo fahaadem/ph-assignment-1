@@ -100,6 +100,7 @@
     padding-left: 120px;
     padding-right: 80px;
     padding-bottom: 130px;
+    text-align: center;
 }
 
 .plan {
@@ -110,8 +111,15 @@
     font-weight: 700;
     font-size: 22px;
     color: #151414;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
+.plan-description {
+    font-weight: 500;
+    font-size: 22px;
+    color: #737272;
+}
 
 
 
@@ -149,11 +157,11 @@ input {
     background-color: black;
     border-radius: 8px;
     border-color: white;
+    color: orangered;
 }
 
 
 .btn {
-    color:black;
     border-radius: 8px;
     padding: 15px 35px;
     margin-top: 15px;
