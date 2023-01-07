@@ -10,10 +10,10 @@
 .header {
     text-align: right;
     background-image: url(../images/banner/banner1.png);
-    padding-top: 216px;
+    padding-top: 215px;
     padding-right: 230px;
     padding-left: 835px;
-    padding-bottom: 166px;
+    padding-bottom: 167px;
 
 }
 
@@ -60,7 +60,6 @@
     gap: 87px;
     text-align: left;
     padding-left: 206px;
-    padding-right: 322px;
     padding-top: 150px;
     padding-bottom: 130px;
 }
@@ -72,8 +71,8 @@
 
 .text-heading {
     font-family: 'Work Sans';
-    padding-right: 50px;
-    padding-bottom: 24px;
+    padding-right: 322px;
+    padding-bottom: 20px;
     font-weight: 700;
     font-size: 40px;
     color: #151414;
@@ -82,6 +81,7 @@
 .text-description {
     padding-top: 12px;
     font-size: 18px;
+    padding-right: 280px;
 }
 
 /* My plans section styles */
@@ -99,7 +99,7 @@
     justify-content: space-evenly;
     padding-left: 120px;
     padding-right: 80px;
-    padding-bottom: 130px;
+    padding-bottom: 10px;
     text-align: center;
 }
 
@@ -122,8 +122,39 @@
 }
 
 
+/* image section styles */
+
+.image {
+    margin: 130px 230px;
+    background-image: url(/images/watch.png);
+    background-repeat: no-repeat;
+    position: relative;
+}
 
 
+.img-heading {
+    font-weight: 700;
+    font-size: 40px;
+    top: 60px;
+    left: 80px;
+    font-family: 'Work Sans';
+    position: absolute;
+    color: #FFFFFF;
+}
+
+.img-btn {
+    border-radius: 8px;
+    border: none;
+    padding: 18px 38px;
+    position: absolute;
+    top: 177px;
+    left: 80px;
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 17px;
+    position: absolute;
+    margin-top: 20px;
+}
 
 /* footer styles */
 
@@ -133,6 +164,7 @@ footer {
     justify-content: space-around;
     background-color: black;
     padding: 130px 230px;
+    margin-top: 130px;
 }
 
 footer .heading {
@@ -158,11 +190,22 @@ input {
     border-radius: 8px;
     border-color: white;
     color: orangered;
+    padding-left: 10px;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 
 .btn {
     border-radius: 8px;
+    border: none;
     padding: 15px 35px;
     margin-top: 15px;
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.icon {
+    padding-left: 7px;
 }
